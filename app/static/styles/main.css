@@ -11,10 +11,47 @@ body {
     margin: 0px;
 }
 
+.welcome {
+    text-align: center;
+    height: 390px;
+    margin-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.welcome p {
+    text-align: left;
+}
+
+.welcome h1{
+    /*margin-bottom: 50px;*/
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.welcome h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about {
+    background-color: #f0a4ab !important;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
 .nav-bar {
     width: 100%;
     display: inline-block;
-    background-color: #1C539F;
+    background-color: #f0a4ab;
     font-family: "Roboto", serif;
     font-weight: 700 !important;
     padding-top: 10px;
@@ -95,3 +132,23 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
+
+.card-body h5, p {
+    color: black;
+}
+
+.card a {
+    background-color: #d66772;
+    border-color: #d66772;
+}
+
+.card a:hover {
+    background-color: #f0b3a4 !important;
+    border-color: #f0b3a4 !important;
+}
+
+.card a:visited {
+    background-color: #d66772;
+    border-color: #d66772;
+}
+
