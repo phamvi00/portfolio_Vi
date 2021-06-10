@@ -16,6 +16,7 @@
 
     <link lang='sass' rel="stylesheet" href="./static/styles/main.css">
     <link rel='icon' href='./static/img/favicon.ico' type='image/x-icon' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>{{ title }}</title>
 </head>
 
@@ -30,11 +31,44 @@
         </div>
     </header>
 
-    <div class="profile">
+    <div class="welcome">
+        <h1>Welcome!</h1>
+        <h2>We're Python Pythons' Team 4</h2>
+
+        <p>We're Team 3.3.1.4 from the Production Engineering Track from MLH Fellowship</p>
+    </div>
+    <div class="about">
+        <h1>Meet our members below!</h1>
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card w-50">
+                <img src="./static/img/profilepic.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Vi Pham</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Meet Vi</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card w-50">
+                <img src="./static/img/profilepic.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ashley Ye</h5>
+                    <p class="card-text">Hi! I'm a sophomore studying Electrical Engineering and Computer Science at UC Berkeley.
+                        I'm interested in web development and machine learning, and I can't wait to learn more about Production Engineering!
+                    </p>
+                    <a href="#" class="btn btn-primary">Meet Ashley</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!--<div class="profile">
         <div id="profile-picture" class="profile-picture">
             <img src="./static/img/logo.jpg">
         </div>
         <h1>{{ title }}</h1>
-    </div>
+    </div>-->
 </body>
 </html>
