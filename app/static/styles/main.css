@@ -13,14 +13,39 @@ body {
 
 .welcome {
     text-align: center;
-    height: 320px;
+    height: 390px;
     margin-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+
+.welcome p {
+    text-align: left;
+}
+
+.welcome h1{
+    /*margin-bottom: 50px;*/
+    padding-top: 15px;
+    font-size: 50px;
+}
+
+.welcome h4{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .about {
     background-color: #f0a4ab !important;
     color: white;
     text-align: center;
+    margin-top: 50px;
+}
+
+.about h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .nav-bar {
@@ -112,17 +137,18 @@ body {
     color: black;
 }
 
-.card a, a:visited {
+.card a {
     background-color: #d66772;
     border-color: #d66772;
 }
 
 .card a:hover {
-    background-color: #f0b3a4;
-    border-color: #f0b3a4;
+    background-color: #f0b3a4 !important;
+    border-color: #f0b3a4 !important;
 }
 
 .card a:visited {
     background-color: #d66772;
     border-color: #d66772;
 }
+
