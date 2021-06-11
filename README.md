@@ -1,6 +1,6 @@
-# Flask-Blog
+# MLH Portfolio Site
 
-Minimal Flask template to get started on your blog application for MLH Fellowship Production Engineering track.
+A portfolio website made using Flask, HTML, and CSS for the MLH Fellowship Production Engineering track.
  
 
 ## Installation
