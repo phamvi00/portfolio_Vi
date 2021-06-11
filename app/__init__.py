@@ -17,3 +17,6 @@ def meetVi():
 @app.route('/meetAshley')
 def meetAshley():
     return render_template('meetAshley.html', title="Ashley Ye", url=os.getenv("URL"))
+
+if __name__ ==  "__main__":
+    app.run(debug=True)
