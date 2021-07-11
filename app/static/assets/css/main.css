@@ -1433,7 +1433,7 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	p, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
 	}
 
@@ -1870,6 +1870,15 @@ input, select, textarea {
 			}
 
 		}
+/* menuBar */
+	#menuBar li{
+		float: inherit;
+    list-style-type: none;
+		display: inline;
+  	padding: 12px;
+		color: white;
+		text-align: center;
+	}
 
 /* Wrapper */
 
