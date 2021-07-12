@@ -7,6 +7,8 @@ services:
       - .env
     volumes:
       - .:/myportfolio
+    ports:
+      - "5000:80"
     depends_on:
       - db
 
